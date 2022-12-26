@@ -19,6 +19,23 @@ export default function Home() {
         <title>Jadoo</title>
         <meta name="description" content="Jadoo App Travel" />
         <link rel="icon" href="/favicon.ico" />
+
+        <meta
+          property="og:url"
+          content="https://danimahdani-jadoo-travel.vercel.app"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Jadoo App Travel" />
+
+        <meta
+          property="og:description"
+          content="Travel asik bersama Jadoo, semakin oke!"
+        />
+
+        <meta
+          property="og:image"
+          content="https://danimahdani-jadoo-travel.vercel.app/aplikasi-travel-murah.jpg"
+        />
       </Head>
 
       <div className="absolute z-10 w-full py-12">
