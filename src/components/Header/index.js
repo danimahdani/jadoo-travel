@@ -28,42 +28,42 @@ const Header = () => {
 
         <div
           className={[
-            "flex w-auto lg:opacity-100 lg:visible lg:h-auto z-10",
+            "lg:flex w-auto lg:opacity-100 lg:visible lg:h-auto z-20",
             menu
               ? "flex items-center justify-center h-screen w-full inset-0 opacity-100 visible fixed bg-black"
               : "hidden opacity-0 h-0 invisible",
           ].join(" ")}
         >
-          <ul className="flex items-center flex-col lg:flex-row gap-y-6 lg:gap-y- 0">
+          <ul className="flex items-center flex-col lg:flex-row gap-y-6 lg:gap-y-0">
             <li className="">
-              <Link href="/destination">
-                <a className="px-9 text-gray-900">Destination</a>
+              <Link href="/destinations">
+                <a className="px-9 text-gray-800">Destinations</a>
               </Link>
             </li>
             <li className="">
               <Link href="/hotels">
-                <a className="px-9 text-gray-900">Hotels</a>
+                <a className="px-9 text-gray-800">Hotels</a>
               </Link>
             </li>
             <li className="">
               <Link href="/flights">
-                <a className="px-9 text-gray-900">Flights</a>
+                <a className="px-9 text-gray-800">Flights</a>
               </Link>
             </li>
             <li className="">
               <Link href="/bookings">
-                <a className="px-9 text-gray-900">Bookings</a>
+                <a className="px-9 text-gray-800">Bookings</a>
               </Link>
             </li>
             <li className="">
-              <Link href="/destination">
-                <a className="px-9 text-gray-900">Login</a>
+              <Link href="/login">
+                <a className="px-9 text-gray-800">Login</a>
               </Link>
             </li>
             <li className="">
               <Link href="/sign-up">
                 <a className="px-5 text-gray-800 py-1 border border-gray-800 rounded-md mx-3">
-                  Sign Up
+                  Sign up
                 </a>
               </Link>
             </li>
