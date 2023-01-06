@@ -129,7 +129,7 @@ export default function Home() {
               We Offer Best Service
             </h3>
           </div>
-          <div className="flex flex-wrap text-gray-900">
+          <div className="flex flex-wrap text-gray-900 gap-4 lg:gap-0">
             <div className="w-full lg:w-3/12 px-8">
               <div className="relative transition-all duration-300 group shadow-none hover:shadow-great flex flex-col items-center justify-center text-center bg-white rounded-[36px]">
                 <div className="absolute transition-all duration-300 opacity-0 group-hover:opacity-100 -z-10 bottom-12 group-hover:bottom-6 left-12 group-hover:left-6 transform -translate-x-1/2 translate-y-1/2 bg-accent-2 rounded-tl-3xl rounded-br-lg w-28 h-28"></div>
@@ -536,7 +536,7 @@ export default function Home() {
 
                       <button
                         className="rounded-tl-none rounded-bl-none lg:rounded-tl-lg
-                          lg:rounded-bl-lg rounded-lg text-white bg-gradient-to-b from-accent-2/90 to-accent-2 py-5 px-4 lg:px-16"
+                          lg:rounded-bl-lg rounded-lg text-white bg-gradient-to-b from-accent-2/90 to-accent-2 py-2 px-4 lg:px-16"
                       >
                         <span className="hidden lg:block">Subscribe</span>
                         <span className="block lg:hidden material-icons">
@@ -558,7 +558,7 @@ export default function Home() {
         </div>
         <div className="max-w-full lg:max-w-7xl mx-auto relative px-4">
           <div className="flex flex-wrap mb-12">
-            <div className="w-3/12 px-4">
+            <div className="w-full lg:w-3/12 px-4">
               <h6 className="text-5xl tracking-tight text-gray-900 mb-4">
                 Jadoo.
               </h6>
